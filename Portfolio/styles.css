@@ -1,0 +1,121 @@
+/* Elements _______________________________________________________*/
+
+body {
+  background-color: whitesmoke;
+}
+
+html {
+  font-family: "Arial", sans-serif;
+}
+
+/* Nav links _______________________________________________________*/
+
+a:hover {
+  color: plum;
+}
+
+/* Classes -----------------------------------------------------------*/
+
+.body-text {
+  display: flexbox;
+  flex-direction: column;
+  padding: 3%;
+}
+
+.header-section {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-links {
+  color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.a-tag {
+  padding: 10%;
+}
+
+/* IDs -----------------------------------------------------------*/
+
+#column-main {
+  display: inline-block;
+  text-align: center;
+  padding: 20%;
+}
+
+#logo-box {
+  /*border: 5px;*/
+  /*padding-block: 1%;*/
+  min-width: 10%;
+  background-color: black;
+}
+
+#sam-title {
+  display: flex;
+  justify-content: center;
+  color: white;
+  margin: 5%;
+  font-size: medium;
+  font-weight: 200;
+  /*put box here*/
+}
+/*how to align the text center within the box?*/
+
+/* Media Queries -----------------------------------------------------------*/
+
+@media (min-width: 600px) {
+  .body-text {
+    display: flexbox;
+    flex-direction:
+    padding: 3%;
+  }
+  .header-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #logo-box {
+    /*border: 5px;*/
+    /*padding-block: 1%;*/
+    width: 10%;
+    background-color: black;
+  }
+
+  #sam-title {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: medium;
+    font-weight: 200;
+  }
+}
+
+@media (min-width: 900px) {
+  .body-text {
+    display: flexbox;
+    flex-direction: column;
+    padding: 3%;
+  }
+  .header-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .body-text {
+    display: flexbox;
+    flex-direction: column;
+    padding: 3%;
+  }
+  .header-section {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
