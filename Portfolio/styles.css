@@ -81,6 +81,8 @@ a:focus {
   padding-top: 30%;
   padding-bottom: 40%;
   background-color: rgb(252, 233, 251);
+  /* display: flex;
+  flex-direction: row; */
 }
 
 .section2 {
@@ -92,8 +94,14 @@ a:focus {
   /*display: block;*/
   /*scale: 25%;*/
   width: calc(100vw - 100px);
-  justify-content: center;
   max-width: 300px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  padding: 1%;
 }
 
 /* IDs -----------------------------------------------------------*/
@@ -123,6 +131,24 @@ a:focus {
   font-weight: 200;
   /*put box here*/
 }
+
+#message {
+  /* width: 60vw; */
+  height: 100px;
+}
+
+#form {
+  width: 50%;
+}
+
+#name-msg {
+  width: 70%;
+}
+#email-msg {
+  /* width: 60vw; */
+  width: 70%;
+}
+
 /*how to align the text center within the box?*/
 
 /* Media Queries -----------------------------------------------------------*/
@@ -170,6 +196,25 @@ a:focus {
   .binary-code {
     display: block;
   }
+
+  #face-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .face-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1 {
+    /* padding-top: 30%;
+    padding-bottom: 40%;
+    background-color: rgb(252, 233, 251); */
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -182,5 +227,26 @@ a:focus {
     align-items: center;
     display: flex;
     justify-content: space-between;
+  }
+
+  .face-pic {
+    margin-left: 15%;
+  }
+
+  #face-div {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin-left: 20px;
+    margin-top: none;
+    margin-bottom: 50px;
+  }
+
+  .section1 {
+    /* padding-top: 30%;
+    padding-bottom: 40%;
+    background-color: rgb(252, 233, 251); */
+    display: flex;
+    flex-direction: row;
   }
 }
