@@ -59,6 +59,7 @@ a:hover,a:focus {
   font-weight: 200;
   text-align: center;
   margin-top: 15%;
+  padding-bottom: 40%;
 }
 
 .binary-code {
@@ -70,10 +71,20 @@ margin-left: 32%;
 margin-right: 32%;
 }
 
-.text-text {
+.section1 {
+  padding-top: 30%;
+  padding-bottom: 40%;
+  background-color: rgb(252, 233, 251);
+}
+
+.section2 {
   margin-top: 30%;
-  padding-left: 50px;
-  margin-right: 47%;
+  height: 80px;
+}
+
+.face-pic {
+  display: block;
+  flex-wrap: wrap;
 }
 
 /* IDs -----------------------------------------------------------*/
@@ -83,7 +94,6 @@ margin-right: 32%;
   text-align: center;
   padding-left: 30%;
   margin: 30%;
-
 }
 
 #logo-box {
