@@ -42,7 +42,7 @@ textarea {
 
 a:hover,
 a:focus {
-  color: plum;
+  color: rgb(231, 140, 208);
 }
 
 /* Classes -----------------------------------------------------------*/
@@ -154,7 +154,7 @@ a:focus {
   margin: 10px auto;
   padding-left: 10%;
   padding-top: 2%;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
 }
 
 /* IDs -----------------------------------------------------------*/
