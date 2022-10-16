@@ -9,41 +9,37 @@
         <title>She Codes</title>
         <link rel="stylesheet" href="../styles.css" />
     </head>
-    <body>
-    </body>
-</html>
+    <header>
+                <img src="images/logo.png" />
+                <nav>
+                    <a href="">Coders</a>
+                    <a href="">Mentors</a>
+                    <a href="">Partners</a>
+                    <a href="">Blog</a>
+                    <a href="">Contact</a>
+                </nav>
+            </header>
+
+    
 <body>
-<main>
-    <header>
-        <img src="images/logo.png" />
-        <nav>
-            <a href="">Coders</a>
-            <a href="">Mentors</a>
-            <a href="">Partners</a>
-            <a href="">Blog</a>
-            <a href="">Contact</a>
-        </nav>
-    </header>
-<body>
+    <form action="https://formspree.io/f/xgeqzwzl" method="post">
     <section id="form">
         <div class="input">
             <label>Name</label>
-            <input id="name-msg"></input>
+            <input name="name-msg" placeholder="Full Name" required="true" id="name-msg"></input>
         </div>
         <div class="input">
             <label>Email</label>
-            <input id="email-msg"></input>
+            <input name="email-msg" required="true" placeholder="Email Address" id="email-msg"></input>
         </div>
         <div class="input">
             <label>Message</label>
-            <textarea id="message"></textarea>
+            <textarea name="message" required="true" placeholder="Your message here..." id="message"></textarea>
         </div>
         <div id="submit" style="padding-left: 1%;">
-        <button>
-            <a>Submit</a>
-        </button>
+            <input type="submit"></input>
         </div>
     </section>
+</form>
 </body>
-<main>
-</body>
+
