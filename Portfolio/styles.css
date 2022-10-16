@@ -107,6 +107,8 @@ a:focus {
   width: 50px;
   max-width: 50px;
   padding-right: 10px;
+  padding-top: 4.5px;
+  padding-left: 10px;
 }
 
 .project {
@@ -116,6 +118,29 @@ a:focus {
 .logo-sam-contactpage {
   background-color: black;
   margin-bottom: 90px;
+}
+
+.projectpictures {
+  display: flex;
+  justify-content: center;
+  max-width: 60vw;
+}
+
+.parent-iconpair {
+  display: flex;
+  flex-direction: row;
+}
+
+.iconpair {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-label {
+  display: flex;
+  flex-direction: row;
 }
 
 /* IDs -----------------------------------------------------------*/
@@ -186,6 +211,46 @@ a:focus {
 
 #blog-coming-soon-text {
   margin-bottom: 150%;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#left-clickicon {
+  width: 38px;
+  max-width: 38px;
+  padding-right: 10px;
+}
+
+#github-clickicon {
+  width: 55px;
+  max-width: 55px;
+  padding-right: 10px;
+}
+
+/*#project1 {
+  display: flex;
+  justify-content: center;
+}
+
+#project2 {
+  display: flex;
+  justify-content: center;
+}*/
+
+#project1-icons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+#project2-icons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
 
 /* Media Queries -----------------------------------------------------------*/
