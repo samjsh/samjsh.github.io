@@ -55,6 +55,8 @@ a:focus {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 2%;
 }
 
 .nav-links {
