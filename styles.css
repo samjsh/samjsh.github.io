@@ -30,7 +30,6 @@ footer {
   position: relative;
   height: 200px;
   text-align: center;
-  /*margin-top: -200px;*/
 }
 
 textarea {
@@ -207,13 +206,6 @@ a:focus {
   margin: 10px;
 }
 
-/*#name-field {
-  padding-bottom: 2px;
-}
-
-#email-field {
-}*/
-
 #message-field {
   height: 50px;
 }
@@ -250,16 +242,6 @@ a:focus {
   max-width: 55px;
   padding-right: 10px;
 }
-
-/*#project1 {
-  display: flex;
-  justify-content: center;
-}
-
-#project2 {
-  display: flex;
-  justify-content: center;
-}*/
 
 #project1-icons {
   display: flex;
