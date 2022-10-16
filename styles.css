@@ -20,7 +20,7 @@ a {
 
 section {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 10%;
 }
 
@@ -149,6 +149,14 @@ a:focus {
   flex-direction: row;
 }
 
+.projects-section {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
 /* IDs -----------------------------------------------------------*/
 
 #column-main {
@@ -265,6 +273,17 @@ a:focus {
 
 #section2-indexpage {
   margin-top: 10px;
+}
+
+#find-me {
+  display: flex;
+  justify-content: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#sam-codes {
+  margin: -20px;
 }
 
 /* Media Queries -----------------------------------------------------------*/
