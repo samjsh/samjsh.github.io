@@ -25,7 +25,12 @@ section {
 }
 
 footer {
-  background-color: rgb(148, 231, 231);
+  background-color: rgb(188, 225, 222);
+  clear: both;
+  position: relative;
+  height: 200px;
+  text-align: center;
+  /*margin-top: -200px;*/
 }
 
 textarea {
@@ -78,13 +83,13 @@ a:focus {
   text-align: center;
   margin-left: 32%;
   margin-right: 32%;
-  padding-bottom: 40%;
+  padding-bottom: 25%;
 }
 
 .section1 {
   padding-top: 30%;
   padding-bottom: 40%;
-  background-color: rgb(252, 233, 251);
+  background-color: rgb(241, 238, 229);
 }
 
 .section2 {
@@ -171,7 +176,11 @@ a:focus {
 }
 
 #form {
-  width: 35%;
+  width: 40%;
+  padding: 8px;
+  border-radius: 10px;
+  border: 5px solid rgb(188, 225, 222);
+  background-color: rgb(188, 225, 222);
 }
 
 #name-msg {
@@ -253,6 +262,10 @@ a:focus {
   text-align: center;
 }
 
+#section2-indexpage {
+  margin-top: 10px;
+}
+
 /* Media Queries -----------------------------------------------------------*/
 
 @media (min-width: 600px) {
@@ -282,9 +295,9 @@ a:focus {
   }
 
   .section1 {
-    padding-top: 30%;
-    padding-bottom: 40%;
-    background-color: rgb(252, 233, 251);
+    padding-top: 15%;
+    padding-bottom: 15%;
+    background-color: rgb(242, 225, 228);
   }
 }
 
