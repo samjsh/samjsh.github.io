@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>SJS</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="./styles.css" />
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Noto+Sans+Mono:wght@200;300;400&display=swap");
     </style>
@@ -27,35 +27,97 @@
     </div>
   </header>
 
-  <body class="body-text">
-    <main>
-      <div>
-        <h2>Welcome!</h2>
-        <p>
-          Within recent times, there has been an explosion of people entering
-          the IT force through unconvential pathways - and the push for it
-          continues. Welome to my slice of the web - a collective hub of things
-          I like to share. The knowledge of all things tech that I've picked up
-          thus far, laughs and humble projects.
-        </p>
-        <button>BLOG</button>
+  <body>
+    <div class="title-statement">
+      <h1>Welcome to my slice of the internet.</h1>
+    </div>
 
-        <div>
-          <img src="image-me" />
-        </div>
+    <div class="binary-code">
+      <p aria-hidden="true" role="none">
+        01001110 01101001 01100011 01100101 00100000 01100101 01100110 01100110
+        01101111 01110010 01110100
+      </p>
+    </div>
+    <!--Wrap title statement and binary code in section (vh:90-95) and putting margin on that - flex -->
+
+    <section class="section1">
+      <div>
+        <h4>Hi! I'm Sam.</h4>
+        <p>
+          Welcome to my little corner of the web - and thanks for checking it
+          out!<br />
+          This for now and to come is a safe space for myself to share humble
+          projects and conversations about my journey into tech.
+        </p>
+
+        <p>
+          My own 'unorthodox' story began when I was working as a beauty
+          therapist. It's what I had done straight after highschool but, the
+          passion for it only lasted so long and I yearned for a complete career
+          shift.
+        </p>
+
+        <p>
+          *insert partner* For some time, I was really influenced by my
+          partner's career in software development and at the same time of
+          feeling like I was going through a quarter life crises, I had pondered
+          for awhile about getting into IT. After some conversation and self
+          encouragement, I began working away to create a plan. During this
+          time, I didn't know if University was the answer but I thought that
+          through networking at events around Perth first, that I would be able
+          to get some valuable and first hand advice on what to do. That's where
+          I discovered
+          <i>She Codes Australia!</i> I booked myself a ticket for their One Day
+          Workshop and a passion was ignited. That workshop changed the course
+          of my career. I could do this. With some hard work and dedication, my
+          dream wasn't so unattainable.
+        </p>
+
+        <p>
+          The push for unconventional pathways into the industry continues and I
+          am such an advocate for unorthodox.
+        </p>
       </div>
-    </main>
+      <div id="face-div">
+        <img src="Pics/facepic.png" class="face-pic" />
+      </div>
+    </section>
+
+    <section class="section2">
+      <p>
+        Well, do you like it? <br />
+        What am I talking about? <br />
+        This website! <br />
+        This is my first ever proper assignment. Watch this space for future
+        projects here
+      </p>
+      <a href="Pages/projects.html">
+        <button type="button">PROJECTS</button>
+      </a>
+    </section>
   </body>
 
+  <!-- different colour footer, with links to github and linkedin -->
   <footer>
     <div class="footer-content">
-      <h4>Get in touch!</h4>
-      <ul class="socials">
-        <li><a href="paste facebook here">Facebook</a></li>
-        <li><a href="paste instagram here">Instagram</a></li>
-        <li><a href="paste email here">Email</a></li>
-        <li><a href="paste linked in here">LinkedIn</a></li>
-      </ul>
+      <h4>Find me here!</h4>
+      <div id="icons">
+        <!-- <div> -->
+        <a href="paste email here"
+          ><img class="icon-link" src="Icons/github-icon.png" />
+          <p>Github</p></a
+        >
+        <!-- </div> -->
+        <!-- <div> -->
+        <a href="paste email here"
+          ><img class="icon-link" src="Icons/linkedin-black.png" />
+          <p>LinkedIn</p></a
+        >
+        <!-- </div> -->
+      </div>
+    </div>
+    <div>
+      <h4>Sam Codes<span> &copy;</span></h4>
     </div>
   </footer>
 </html>

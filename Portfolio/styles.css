@@ -1,24 +1,53 @@
 /* Elements _______________________________________________________*/
 
 body {
-  background-color: whitesmoke;
+  background-color: rgb(248, 248, 248);
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  margin: 0 auto;
 }
 
 html {
   font-family: "Arial", sans-serif;
 }
 
+header {
+  padding: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10%;
+}
+
+footer {
+  background-color: rgb(148, 231, 231);
+}
+
+textarea {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
 /* Nav links _______________________________________________________*/
 
-a:hover {
+a:hover,
+a:focus {
   color: plum;
 }
 
 /* Classes -----------------------------------------------------------*/
 
 .body-text {
-  display: flexbox;
-  flex-direction: column;
+  /* display: flexbox; */
+  /* flex-direction: column; */
   padding: 3%;
 }
 
@@ -32,10 +61,66 @@ a:hover {
   color: black;
   display: flex;
   flex-direction: column;
+  margin-right: 2%;
 }
 
 .a-tag {
   padding: 10%;
+}
+
+.title-statement {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 15%;
+  margin-bottom: none;
+}
+
+.binary-code {
+  display: block;
+  font: size 14px;
+  color: rgb(161, 161, 161);
+  text-align: center;
+  margin-left: 32%;
+  margin-right: 32%;
+  padding-bottom: 40%;
+}
+
+.section1 {
+  padding-top: 30%;
+  padding-bottom: 40%;
+  background-color: rgb(252, 233, 251);
+  /* display: flex;
+  flex-direction: row; */
+}
+
+.section2 {
+  margin-top: 30%;
+  height: 80px;
+}
+
+.face-pic {
+  /*display: block;*/
+  /*scale: 25%;*/
+  width: calc(100vw - 100px);
+  max-width: 300px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: ; */
+  padding: 5px;
+}
+
+.icon-link {
+  width: 50px;
+  max-width: 50px;
+  padding-right: 10px;
+}
+
+.project {
+  border: 2px solid black;
 }
 
 /* IDs -----------------------------------------------------------*/
@@ -43,14 +128,17 @@ a:hover {
 #column-main {
   display: inline-block;
   text-align: center;
-  padding: 20%;
+  padding-left: 30%;
+  margin: 30%;
 }
 
 #logo-box {
   /*border: 5px;*/
   /*padding-block: 1%;*/
-  min-width: 10%;
+  /*min-width: 10%;*/
   background-color: black;
+  margin-bottom: 90px;
+  /*margin-left: 2%;*/
 }
 
 #sam-title {
@@ -62,15 +150,47 @@ a:hover {
   font-weight: 200;
   /*put box here*/
 }
-/*how to align the text center within the box?*/
+
+#message {
+  /* width: 60vw; */
+  height: 100px;
+}
+
+#form {
+  width: 35%;
+}
+
+#name-msg {
+  width: 70%;
+}
+#email-msg {
+  /* width: 60vw; */
+  width: 70%;
+}
+
+#icons {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+/*#name-field {
+  padding-bottom: 2px;
+}
+
+#email-field {
+}*/
+
+#message-field {
+  height: 50px;
+}
 
 /* Media Queries -----------------------------------------------------------*/
 
 @media (min-width: 600px) {
-  .body-text {
-    display: flexbox;
-    flex-direction:
-    padding: 3%;
+  .body {
+    /* display: flexbox;
+    padding: 3%; */
   }
   .header-section {
     align-items: center;
@@ -80,8 +200,10 @@ a:hover {
 
   #logo-box {
     /*border: 5px;*/
-    /*padding-block: 1%;*/
+    padding-left: 5%;
+    padding-right: 5%;
     width: 10%;
+
     background-color: black;
   }
 
@@ -91,6 +213,14 @@ a:hover {
     color: white;
     font-size: medium;
     font-weight: 200;
+  }
+
+  .section1 {
+    padding-top: 30%;
+    padding-bottom: 40%;
+    background-color: rgb(252, 233, 251);
+    /* display: flex;
+    flex-direction: row; */
   }
 }
 
@@ -105,6 +235,28 @@ a:hover {
     display: flex;
     justify-content: space-between;
   }
+  .binary-code {
+    display: block;
+  }
+
+  #face-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  .face-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .section1 {
+    /* padding-top: 30%;
+    padding-bottom: 40%;
+    background-color: rgb(252, 233, 251); */
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -117,5 +269,26 @@ a:hover {
     align-items: center;
     display: flex;
     justify-content: space-between;
+  }
+
+  .face-pic {
+    margin-left: 15%;
+  }
+
+  #face-div {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    margin-left: 20px;
+    margin-top: none;
+    margin-bottom: 50px;
+  }
+
+  .section1 {
+    /* padding-top: 30%;
+    padding-bottom: 40%;
+    background-color: rgb(252, 233, 251); */
+    display: flex;
+    flex-direction: row;
   }
 }
