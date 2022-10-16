@@ -110,7 +110,7 @@ a:focus {
   display: flex;
   flex-direction: column;
   /* justify-content: ; */
-  padding: 1%;
+  padding: 5px;
 }
 
 .icon-link {
@@ -157,7 +157,7 @@ a:focus {
 }
 
 #form {
-  width: 50%;
+  width: 35%;
 }
 
 #name-msg {
@@ -174,7 +174,16 @@ a:focus {
   margin: 10px;
 }
 
-/*how to align the text center within the box?*/
+/*#name-field {
+  padding-bottom: 2px;
+}
+
+#email-field {
+}*/
+
+#message-field {
+  height: 50px;
+}
 
 /* Media Queries -----------------------------------------------------------*/
 
