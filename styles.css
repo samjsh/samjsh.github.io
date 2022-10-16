@@ -20,7 +20,7 @@ a {
 
 section {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 100px auto;
   padding: 10%;
 }
 
@@ -30,7 +30,6 @@ footer {
   position: relative;
   height: 200px;
   text-align: center;
-  /*margin-top: -200px;*/
 }
 
 textarea {
@@ -42,7 +41,7 @@ textarea {
 
 a:hover,
 a:focus {
-  color: plum;
+  color: rgb(231, 140, 208);
 }
 
 /* Classes -----------------------------------------------------------*/
@@ -55,6 +54,8 @@ a:focus {
   align-items: center;
   display: flex;
   justify-content: space-between;
+  padding-right: 5%;
+  padding-left: 2%;
 }
 
 .nav-links {
@@ -149,6 +150,14 @@ a:focus {
   flex-direction: row;
 }
 
+.projects-section {
+  max-width: 1200px;
+  margin: 10px auto;
+  padding-left: 10%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
 /* IDs -----------------------------------------------------------*/
 
 #column-main {
@@ -197,13 +206,6 @@ a:focus {
   margin: 10px;
 }
 
-/*#name-field {
-  padding-bottom: 2px;
-}
-
-#email-field {
-}*/
-
 #message-field {
   height: 50px;
 }
@@ -241,16 +243,6 @@ a:focus {
   padding-right: 10px;
 }
 
-/*#project1 {
-  display: flex;
-  justify-content: center;
-}
-
-#project2 {
-  display: flex;
-  justify-content: center;
-}*/
-
 #project1-icons {
   display: flex;
   flex-direction: row;
@@ -265,6 +257,17 @@ a:focus {
 
 #section2-indexpage {
   margin-top: 10px;
+}
+
+#find-me {
+  display: flex;
+  justify-content: left;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#sam-codes {
+  margin: -20px;
 }
 
 /* Media Queries -----------------------------------------------------------*/
